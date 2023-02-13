@@ -1,0 +1,13 @@
+@media (min-width: 992px) {
+    .navbar {
+        min-height: 100vh;
+        width: var(--sidbar-width);
+        background: linear-gradient(rgb(3, 46, 52, 0.8),rgb(6, 88, 98,0.6)), url(../assets/images/sidebar-img.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+
+    #content-wrapper {
+        padding-left: var(--sidbar-width);
+    }
+}
